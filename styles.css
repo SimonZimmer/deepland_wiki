@@ -1,0 +1,348 @@
+body {
+    position: relative;
+    height: 100%;
+}
+
+div#sidePanel {
+    position: absolute;
+    top: 0;
+    width: 17%;
+    left: 0;
+    background-color:#f6f6f6;
+    height: 986px;
+}
+
+#logo {
+    display: block;
+    width: 100%;
+    height: 160px;
+}
+
+#page-base {
+    height:2em;
+    background-image: linear-gradient(
+    #ffffff 0%,
+    #f6f6f6 100%);
+    background-color: #ffffff;
+}
+
+#mainpage {
+    position:relative; 
+    border:1px solid #cef2e0; 	
+    padding:1em; 
+    background:#f5fffa; 
+    vertical-align:top; 
+    color:#000;
+    
+}
+
+#mainpage_h2 {
+	background:#cef2e0; 
+	font-family:inherit; 
+	font-size:120%; 
+	font-weight:bold; 
+	border:1px solid #a3bfb1; 
+	color:#000; 
+	padding:0.2em 0.4em;
+}
+
+#subpage {
+    position:relative; 
+    width:81%; 
+    left: 17%; 
+    height: 100%;
+    border:1px solid #cef2e0; 	
+    padding:0; 
+    background-color:#f9f9f9; 
+    vertical-align:top; 
+    color:#000;
+    height:78%;
+}
+
+#subpage_h2 {
+	margin:0.5em; 
+	background:#cef2e0; 
+	font-family:inherit; 
+	font-size:120%; 
+	font-weight:bold; 
+	border:1px solid #a3bfb1; 
+	color:#000; 
+	padding:0.2em 0.4em;
+}
+
+#topBanner {
+	position:relative; 
+	width:81%; 
+	margin:0.5em 0 6px; 
+	min-width:47em; 
+	left: 17%;
+	top:-3%;
+	border:1px solid #ddd; 
+	background-color:#f9f9f9; 
+	color:#000; 
+	white-space:nowrap;
+}
+
+#topBannerOverview {
+	position:relative; 
+	width:81%; 
+	margin:0.5em 0 6px; 
+	min-width:47em; 
+	left: 17%;
+	top:-3%;
+	border:1px solid #ddd; 
+	background-color:#f9f9f9; 
+	color:#000; 
+	white-space:nowrap;
+	margin-top:-1.1%;
+}
+
+#articleTextHeading {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight:normal;
+    font-size:160%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+#articleText {
+    font-family: sans-serif;
+    line-height: 1.5em;
+    font-weight:normal;
+    font-size:100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+#sourceText {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight:normal;
+    display: inline-block;
+    position: relative;
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
+#articleCanvas {
+	position:relative; 
+	width:83%; 
+	min-width:47em; 
+	left: 17%;
+	top:0%;
+	border: 1px solid #a7d7f9;
+	color:#000; 
+	padding: 1em;
+    overflow:auto;
+    height: 920px;
+}
+
+artHead {
+	font-family:inherit; 
+	font-size:120%;
+	font-weight:bold;
+	color:#a3bfb1;   
+}
+
+#logo {
+  text-align:center;
+	display: block;
+}
+
+#logoImg {
+	height: 7.8em;
+	display: block;
+
+    background-image: linear-gradient(
+    #ffffff 35%,
+    #f6f6f6 65px);
+    background-color: transparent;
+}
+
+#imageLogo {
+	padding: 1em 1em;
+
+}
+
+#logoText1 {
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	font-weight: light;
+	font-size:110%;
+	color: black;
+}
+
+#logoText2 {
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	font-weight: light;
+	font-size:90%;
+	color: black;
+}
+
+/*content*/
+
+#article-heading1	{
+  font-family: 'Linux Libertine','Georgia','Times',serif;
+  font-weight: normal;
+  line-height: 1.3;
+  margin-bottom: 0.25em;
+  padding: 0;"
+}
+
+#navigation ul {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#navigation li a{
+    font-family: sans-serif;
+    font-weight:normal;
+    display: inline-block;
+    color: #000;
+    padding: 8px;
+    color: #0A2F9D;
+    cursor: pointer;
+}
+
+#navigation {
+	list-style-type: none;
+}
+
+#navigation2 navText{
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	font-weight:bold;
+	list-style-type: none;
+	padding: 0em 0.6em;
+    font-family: sans-serif;
+}
+
+
+#navigation2 ul {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: sans-serif;
+}
+
+
+#navigation2 li a{
+    font-family: sans-serif;
+    font-weight:normal;
+    display: block;
+    padding: 0em 0.6em;
+    color: #0A2F9D;
+    cursor: pointer;
+}
+
+#navigation2 {
+    list-style-type: none;
+    background-color: #F6F6F6;
+    margin-bottom: 0px;
+    padding-bottom: 3em;
+}
+
+#navigation2Text {
+    font-size: 90%;
+    margin-top: 1.5em;
+}
+
+#subHeading {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-size: 0.875em;
+    margin-left:0.2em; 
+}
+
+#firstHeading {
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight:normal;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid #a2a9b1;
+    margin-bottom:0em;
+}
+
+#infobox {
+    font-family: sans-serif;
+    font-weight:normal;
+    border:1px solid #ddd; 
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    border: 1px solid gray;
+    float:right;
+    width:35%;
+    min-width: 35%;
+}
+
+#infobox h2 {
+    font-family: sans-serif;
+    font-size:200%;
+    font-weight:normal;
+    margin-left:4%;
+}
+
+#anthem {
+    margin-left:4%;
+}
+
+#flag {
+    margin-left:4%;
+}
+
+#countries {
+    font-family: sans-serif;
+    font-weight:normal;
+    display: inline-block;
+    position: relative;
+    margin-left:0.2em; 
+    margin-top:0em; 
+}
+
+#countries h3{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight:normal;
+    display: inline-block;
+    position: relative;
+    margin-top:1em; 
+}
+
+#country {
+    font-family: sans-serif;
+    font-weight:normal;
+    position: relative;
+    margin-left:-1.4em; 
+    margin-top:0em; 
+}
+
+#abstracts {
+    font-family: sans-serif;
+    font-weight:normal;
+    float:left;
+    width:60%;
+    max-width: 55%;
+    line-height: 1.5em;
+}
+
+#plainText {
+    margin-top:3em;
+    font-family: sans-serif;
+    font-weight:normal;
+    float:left;
+    width:100%;
+    line-height: 1.5em;
+}
+
+.wordWrapArticleText {
+    word-break: break-word;
+}
+
