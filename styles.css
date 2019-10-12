@@ -27,23 +27,23 @@ div#sidePanel {
 }
 
 #mainpage {
-    position:relative; 
     border:1px solid #cef2e0; 	
-    padding:1em; 
-    background:#f5fffa; 
-    vertical-align:top; 
+    padding:1em;
+    background:#f5fffa;
+    float:bottom;
     color:#000;
-    
+    position: relative;
 }
 
 #mainpage_h2 {
-	background:#cef2e0; 
+	background:#cef2e0;
 	font-family:inherit; 
 	font-size:120%; 
 	font-weight:bold; 
 	border:1px solid #a3bfb1; 
 	color:#000; 
-	padding:0.2em 0.4em;
+	padding:0.2em 0.2em;
+    margin-bottom: 1em;
 }
 
 #subpage {
@@ -163,7 +163,6 @@ artHead {
 
 #imageLogo {
 	padding: 1em 1em;
-
 }
 
 #logoText1 {
@@ -205,20 +204,27 @@ artHead {
     font-weight:normal;
     display: inline-block;
     color: #000;
-    padding: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     color: #0A2F9D;
     cursor: pointer;
 }
 
 #navigation {
+    border-top: solid 1px lightgrey;
 	list-style-type: none;
+    width:80%;
+    padding:0em;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:1em;
 }
 
 #navigation2 navText{
 	font-family: 'Linux Libertine','Georgia','Times',serif;
 	font-weight:bold;
 	list-style-type: none;
-	padding: 0em 0.6em;
+	padding: 0em;
     font-family: sans-serif;
 }
 
@@ -231,7 +237,6 @@ artHead {
     position: fixed;
     height: 100%;
     overflow: auto;
-    font-family: sans-serif;
 }
 
 
@@ -239,16 +244,21 @@ artHead {
     font-family: sans-serif;
     font-weight:normal;
     display: block;
-    padding: 0em 0.6em;
+    padding-top: 2px;
+    margin:0;
     color: #0A2F9D;
     cursor: pointer;
 }
 
 #navigation2 {
+    border-top: solid 1px lightgrey;
     list-style-type: none;
     background-color: #F6F6F6;
-    margin-bottom: 0px;
-    padding-bottom: 3em;
+    width:80%;
+    margin: 0em;
+    padding: 0em;
+    margin-left:10%;
+    margin-right:10%;
 }
 
 #navigation2Text {
@@ -280,7 +290,7 @@ artHead {
     background-color: #f8f9fa;
     border: 1px solid gray;
     float:right;
-    width:35%;
+    width:50%;
     min-width: 35%;
 }
 
@@ -288,15 +298,30 @@ artHead {
     font-family: sans-serif;
     font-size:200%;
     font-weight:normal;
-    margin-left:4%;
+    margin-left:5%;
 }
 
 #anthem {
-    margin-left:4%;
+    width: 90%;
+    margin-top: 1em;
+    padding-top:1em;
+    border-top: 1px solid #a2a9b1;
+    margin-left:5%;
+}
+
+#audio {
+    margin-left:5%;
+    width: 90%
 }
 
 #flag {
-    margin-left:4%;
+    margin-top: 1em;
+    margin-left:5%
+}
+
+#innerFlag {
+    margin-left:5%;
+    width: 90%
 }
 
 #countries {
@@ -328,7 +353,7 @@ artHead {
     font-family: sans-serif;
     font-weight:normal;
     float:left;
-    width:60%;
+    width:45%;
     max-width: 55%;
     line-height: 1.5em;
 }
