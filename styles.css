@@ -139,6 +139,7 @@ div#sidePanel {
 	padding: 1em;
     overflow:auto;
     background-color:white;
+    padding-right:2em; !important
 }
 
 artHead {

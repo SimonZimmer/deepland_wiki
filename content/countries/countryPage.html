@@ -6,9 +6,8 @@
 		<br><br>
 		<title>deepworld-wiki:content:portal</title>
 		<link rel="stylesheet" type="text/css" href="../../styles.css"/>
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css">
-		<link href="contentPortal.html">
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../../third_party/semantic.min.css">
+        <script src="../../third_party/jquery-3.1.1.min.js"></script>
 	</head>
 
     <body onload="replaceContent();">
@@ -105,7 +104,7 @@
                         </tr>
                     </tbody>
                 </table>
-            <p id="abstracts" class="wordWrapArticleText">   
+            <p id="abstracts" class="wordWrapArticleText">
 <!--            content of the abstracts-->
             </p>
             </div>
@@ -146,7 +145,7 @@
             var abstracts = new Array;
             $.get('abstracts.txt', function(data){
                     abstracts = data.split('\n');
-                    abstracts = abstracts.filter(function(item) { 
+                    abstracts = abstracts.filter(function(item) {
                         return item !== "";
                     })
                     console.log(abstracts);
@@ -160,15 +159,13 @@
                 audio_source = document.getElementById("audiosource");
                 audio_source.src = "../../audio/deepworld_anthem"+select+".mp3";
                 audio.load();
-                
+
                 flag_source = document.getElementById("innerFlag");
                 flag_source.src = "../../flags/deepworld_flag"+select+".png";
-                
+
                 console.log("select = " + select);
 
                 document.getElementById('abstracts').innerHTML = abstracts[select-1];
             }
-            
         </script>
-    
     </body>

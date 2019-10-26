@@ -1,2 +1,3 @@
 # deepland_wiki
-website of deepland wiki, the neural enciclopedia
+
+website for the deepland wiki, the neural encyclopedia
